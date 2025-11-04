@@ -5,14 +5,14 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class vehicle
+public class Vehicle
 {
     private String type;
     private int capacity;
     private int wheels;
     private int location;
     
-    public vehicle(String t, int c, int w){
+    public Vehicle(String t, int c, int w){
         type = t;
         capacity = c;
         wheels = w;

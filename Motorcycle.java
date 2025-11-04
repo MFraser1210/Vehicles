@@ -5,10 +5,10 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class motorcycle extends vehicle
+public class Motorcycle extends Vehicle
 {
     // instance variables - replace the example below with your own
-    public motorcycle(int c){
+    public Motorcycle(int c){
         super("motorcycle",c,2);
     }
     @Override
