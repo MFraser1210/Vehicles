@@ -16,9 +16,4 @@ public class Motorcycle extends Vehicle
         System.out.println("vroom vroom");
         setLocation(getLocation() + 2);
     }
-    @Override 
-    public void reverse(){
-        System.out.println("beep beep");
-        setLocation(getLocation() - 2);
-    }
 }
